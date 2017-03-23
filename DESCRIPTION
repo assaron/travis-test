@@ -1,0 +1,13 @@
+Package: travistest
+Title: test 
+Version: 1.1.2
+Date: 2016-11-21
+Authors@R: person("Alexey", "Sergushichev", email = "alsergbox@gmail.com", role = c("aut", "cre"))
+Description: Travis test
+biocViews: GeneExpression, DifferentialExpression, GeneSetEnrichment, Pathways
+Depends:
+    R (>= 3.3)
+Suggests:
+    reactome.db
+License: public domain
+LazyData: true
