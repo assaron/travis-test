@@ -1,6 +1,7 @@
 language: r
 r: 
     - bioc-devel
+    - bioc-release
 sudo: false
 cache: packages
 
