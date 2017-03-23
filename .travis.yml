@@ -1,0 +1,13 @@
+language: r
+r: 
+    - bioc-devel
+sudo: false
+cache: packages
+
+os:
+  - osx
+
+bioc_required: true
+bioc_packages:
+  - reactome.db
+
